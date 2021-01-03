@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="Style/index.css">
 </head>
 
 <body>
@@ -41,7 +42,7 @@
 
         <div class="row" style="margin-right: -15px; margin-left: 5px;">
             <div class="pt-3">
-                <a href="#">Registrasi Wisata Kuliner</a>
+                <a href="registerWisataKuliner.html">Registrasi Wisata Kuliner</a>
             </div>
             <div class="ml-auto">
                 <nav aria-label="breadcrumb">
@@ -55,20 +56,115 @@
         </div>
 
         <div class="container-fluid border border-dark">
+            <fieldset class="line">
+            <h5>Form Registerasi Tempat Wisata Rekreasi</h5>
             <form action="/action_page.php">
-                <fieldset>
-                    <legend>Personalia:</legend>
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname"><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br><br>
-                    <label for="birthday">Birthday:</label>
-                    <input type="date" id="birthday" name="birthday"><br><br>
-                    <input type="submit" value="Submit">
-                </fieldset>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Nama Tempat Wisata</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Jenis Wisata</label>
+                        </div>
+                        <div class="col-8">
+                              <select class="custom-select" name="" id="">
+                                    <option selected>Pilih</option>
+                                    <option value="">Taman</option>
+                                    <option value="">Hutan Kota</option>
+                                    <option value="">Curug</option>
+                                    <option value="">Pusat Sovenir</option>
+                                </select>
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Deskripsi Wisata</label>
+                        </div>
+                        <div class="col-8">
+                            <textarea class="form-control" name="" id="" rows="3"></textarea>
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Kontak Person</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">No HP/Telpon</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Email</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Alamat Web</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Alamat Lengkap</label>
+                        </div>
+                        <div class="col-8">
+                            <textarea class="form-control" name="" id="" rows="3"></textarea>
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> 
+                            <label for="">Latitude, Longitude</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark">Daftar</button>
+                            <button type="button" class="btn btn-outline-dark">Batal</button>
+                        </div>
+                    </div>
+                
             </form>
+        </fieldset>
         </div>
 
 

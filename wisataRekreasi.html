@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
+    <!-- <link rel="stylesheet" href="bootstrap/css/style.css"> -->
 </head>
 
 <body>
-    <div class="container-fluid px-5">
-        <div class="mt-4">
+    <!-- <div class="container-fluid px-5"> -->
+        <!-- <div class="mt-4">
             <h2 class="text-center">Sistem Informasi Wisata Kota Depok - SIWIKODE</h2>
-        </div>
-
-        <nav class="navbar pt-4 navbar-expand-lg navbar-light pn">
+        </div> -->
+        <!-- <nav class="navbar pt-4 navbar-expand-lg navbar-light pn">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -37,29 +38,72 @@
                     </li>
                 </ul>
             </div>
+        </nav>-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">SIWIKODE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="wisataRekreasi.html">Wisata Rekreasi</a>
+                        <a class="nav-item nav-link" href="wisataKuliner.html">Wisata Kuliner</a>
+                        <a class="nav-item nav-link" href="">Registrasi</a>
+                        <a class="nav-item tombol btn btn-primary" href="login.html">Login </a>					
+                      </div>
+                    </div>
         </nav>
+        <!-- <div class="jumbotron2 jumbotron-fluid">
+            <div class="container2">
+              <p class="display-5">Sistem Informasi <span>Wisata</span> Kota Depok</p>
+            </div>
+        </div> -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/transport (1).jpg" alt="..." class="slide">
+                    <div class="carousel-caption d-none d-md-block caption">
+                      <h5 class="display-4">Transportasi Kota Depok</h5>
+                      <p>Rekomendasi tranportasi jika ingin berwisata di kota depok</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/kubah.jpg" alt="..." class="slide">
+                    <div class="carousel-caption d-none d-md-block caption">
+                      <h5 class="display-4">Wisata Religius Yang Legendaris</h5>
+                      <p>Masjid Jami' Dian Al-Mahri atau biasa disebut masjid Kubah Mas</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/nature.jpg" alt="..." class="slide">
+                    <div class="carousel-caption d-none d-md-block caption">
+                      <h5 class="display-4">Wisata Alam di Kota Depok</h5>
+                      <p>Hidden Gems di Depok</p>
+                    </div>
+                </div>
+            </div>
+          </div>
 
-        <nav aria-label="breadcrumb" style="margin-right: -15px">
+        <nav aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-end" style="background-color: transparent;">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Library</li>
             </ol>
-        </nav>
-
-        <h3 style="margin-bottom: 30px;">Daftar Wisata Rekreasi Depok</h3>
-
-        <div class="col border border-dark">
-            <div class="row pt-3">
-                <div class="col-sm">
-                    <div class="mb-3 py-3 px-3">
-                        <h4>wadawda</h4>
+        </nav> 
+        <div class="col news bg-light border ">
+            <h3 class="display-4">Daftar Wisata Rekreasi Depok</h3>
+                <div class="row pt-3">
+                    <div class="col-sm">
+                        <div class="mb-3 py-3 px-3">
+                            <h4 class="subtitle">Wisata Religius di kota Depok</h4>
                         <div class="row no-gutters">
                             <div class="col-md-4 pr-4 mt-2">
-                                <img src="assets/images/1.jpeg" class="img-fluid" alt="">
+                                <img src="assets/kubah.jpg" class="img-fluid image1" alt="">
                             </div>
                             <div class="col-md-8">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil similique tempore culpa nam neque explicabo commodi odit dolores, ad, quas vel quasi. Rerum error ut exercitationem voluptatum! Vitae, iusto voluptatem.</p>
-                                <a href="detilWisataRekreasi.html">Detail</a>
+                                <p>Masjid Dian Al Mahri dikenal juga dengan nama Masjid Kubah Emas [1] adalah sebuah masjid yang dibangun di tepi jalan Raya Meruyung, Limo, Depok di Kecamatan Limo, Depok.</p>
+                                <a class="btn btn-primary" href="detilWisataRekreasi.html">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -67,29 +111,29 @@
             </div>
             <div class="row px-3">
                 <div class="col-sm ">
-                    <div class="card mb-3 py-3 px-3 border border-dark">
-                        <h4>wadawda</h4>
+                    <div class="card news mb-3 py-3 px-3 ">
+                        <h4>Hidden Gems di kota Depok</h4>
                         <div class="row no-gutters">
                             <div class="col-md-4 pr-4 mt-2">
-                                <img src="assets/images/1.jpeg" class="img-fluid" alt="">
+                                <img src="assets/nature.jpg" class="img-fluid image1" alt="">
                             </div>
                             <div class="col-md-8">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil similique tempore culpa nam neque explicabo commodi odit dolores, ad, quas vel quasi. Rerum error ut exercitationem voluptatum! Vitae, iusto voluptatem.</p>
-                                <a href="#">Detail</a>
+                                <p>Nama tempat wisata yang pertama ini memang unik. Cocok untuk mereka yang mencari suasana tenang, damai dan terasa sejuk setelah beraktivitas cukup padat dalam satu minggu penuh.Kampung 99 Pepohonan ini merupakan tempat hunian sekaligus rekreasi yang berkonsep menyatu dengan alam.</p>
+                                <a class="btn btn-primary" href="#">Detail</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm ">
-                    <div class="card mb-3 py-3 px-3 border border-dark">
-                        <h4>wadawda</h4>
+                    <div class="card   mb-3 news py-3 px-3 ">
+                        <h4>Rekomendasi Transportasi umum jika berwisata di kota Depok</h4>
                         <div class="row no-gutters">
                             <div class="col-md-4 pr-4 mt-2">
-                                <img src="assets/images/1.jpeg" class="img-fluid" alt="">
+                                <img src="assets/train.jpg" class="img-fluid image1" alt="">
                             </div>
                             <div class="col-md-8">
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil similique tempore culpa nam neque explicabo commodi odit dolores, ad, quas vel quasi. Rerum error ut exercitationem voluptatum! Vitae, iusto voluptatem.</p>
-                                <a href="#">Detail</a>
+                                <a class="btn btn-primary" href="#">Detail</a>
                             </div>
                         </div>
                     </div>
@@ -107,10 +151,9 @@
             <!-- Copyright -->
         </footer>
         <!-- Footer -->
-
-
-        <script src="bootstrap/jquery/jquery-3.5.1.min.js"></script>
-        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </div>
 </body>
 

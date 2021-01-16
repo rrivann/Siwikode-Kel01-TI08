@@ -17,7 +17,6 @@ body{
     color: aliceblue;
     font-family: 'Viga', sans-serif;
 }
-
 @media(min-width: 992px){
 .title{
     font-size:60px ;
@@ -30,6 +29,7 @@ body{
 .home{
     color: turquoise;
 }
+
 
 }
 

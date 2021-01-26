@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIWIKODE</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="Style/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -44,45 +47,43 @@
 
     <h3>Detail Wisata Rekreasi 1</h3>
     <div class="desk">
-        <div class="card news bg-light">
+        <div class="news2 bg-light">
             <h4>Galery Photo</h4>
-            <div class="row row-cols-6 mx-2 ">
-                <div class="col"><img src="assets/detai1/1.jpg" class="img-fluid" alt=""></div>
-                <div class="col"><img src="assets/detai1/2.jpg" class="img-fluid" alt=""></div>
-                <div class="col"><img src="assets/detai1/3.jpg" class="img-fluid" alt=""></div>
-                <div class="col"><img src="assets/detai1/6.jpg" class="img-fluid" alt=""></div>
-                <div class="col"><img src="assets/detai1/7.jpg" class="img-fluid" alt=""></div>
-                <div class="col"><img src="assets/detai1/8.jpg" class="img-fluid" alt=""></div>
+            <div class="row ">
+                <div class="col-sm-2"><img src="assets/detai1/1.jpg" class="img-thumbnail gallery" alt=""></div>
+                <div class="col-sm-2"><img src="assets/detai1/2.jpg" class="img-thumbnail gallery" alt=""></div>
+                <div class="col-sm-2"><img src="assets/detai1/3.jpg" class="img-thumbnail gallery" alt=""></div>
+                <div class="col-sm-2"><img src="assets/detai1/6.jpg" class="img-thumbnail gallery" alt=""></div>
+                <div class="col-sm-2"><img src="assets/detai1/7.jpg" class="img-thumbnail gallery" alt=""></div>
+                <div class="col-sm-2"><img src="assets/detai1/8.jpg" class="img-thumbnail gallery" alt=""></div>
             </div>
         </div>
     </div>   
-        <div class="col">
-            <div class="row row-cols-2 mt-4">
-                <div class="col-6">
-                    <div class="card news bg-light">
-                        <h4>Deskripsi Fasilitas</h4>
-                        <p>Hal spesial dari masjid ini adalah setiap struktur bangunan masjid yang katanya punya arti tersendiri. Misalnya, masjid ini mempunyai lima kubah berlapis emas, yang melambangkan rukun Islam. Selain itu juga mempunyai enam menara, yang melambangkan rukun iman dalam agama Islam.</p>
-                    </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card-body news2">
+                  <h5 class="card-title">Deskripsi Fasilitas</h5>
+                  <p>Hal spesial dari masjid ini adalah setiap struktur bangunan masjid yang katanya punya arti tersendiri. Misalnya, masjid ini mempunyai lima kubah berlapis emas, yang melambangkan rukun Islam. Selain itu juga mempunyai enam menara, yang melambangkan rukun iman dalam agama Islam.</p>
                 </div>
-                <div class="col-6">
-                    <div class="card news bg-light">
-                        <div class="row row-cols-2">
-                            <div class="col-8">
-                                <h4>Alamat Peta dan Lokasi</h4>
-                                <p>Namanya Masjid Kubah Emas Depok, atau biasa dikenal sebagai Masjid Dian Al Mahri. Ya, sesuai namanya, masjid yang terletak di Jl Meruyung, Limo, Depok punya kubah yang terbuat dari emas asli. Dian Al Mahri pun sosok pendiri yang mendesain sendiri rancangan masjid ini, dan terbilang bahwa masjid yang diresmikan pada Desember 2006 ini memang terinspirasi dari gaya arsitektur Timur Tengah.</p>
-                            </div>
-                            <div class="col-4">
-                                <div id="map-container-google-1" class="z-depth-1-half map-container">
-                                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                </div>
+              </div>
+            <div class="col-sm-6">
+                <div class="card-body  news2">
+                  <h5 class="card-title">Alamat Peta dan Lokasi</h5>
+                  <div class="row">
+                        <div class="col-sm-6">
+                            <p class="card-text">Masjid yang terletak di Jl Meruyung, Limo, Depok punya kubah yang terbuat dari emas asli</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <div id="map-container-google-1" class="z-depth-1-half map-container">
+                                <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
                         </div>
-                    </div>
-
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="testi news bg-light">
+
+        <div class="testi news2 bg-light">
         <h4>Testimoni dan Komentar</h4>
         <div class="row row-cols-3 ">
             <div class="col">
@@ -94,7 +95,7 @@
                         </div>
                         <div class="col-md-8">
                             <p>Tempatnya sangat menginspirasi, menambah motivasi untuk beribadah dimasjid</p>
-                            <a href="detilWisataRekreasi.html">Detail</a>
+                            <a href="detilWisataRekreasi.html" class="btn btn-primary"><i class="fas fa-info-circle"></i> Detail</a>
                         </div>
                     </div>
                 </div>
@@ -108,7 +109,7 @@
                         </div>
                         <div class="col-md-8">
                             <p>Sangat Megah, gak nyangka depok ada tempat semegah ini</p>
-                            <a href="detilWisataRekreasi.html">Detail</a>
+                            <a href="detilWisataRekreasi.html" class="btn btn-primary"> <i class="fas fa-info-circle"></i> Detail</a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +123,7 @@
                         </div>
                         <div class="col-md-8">
                             <p>Impressive, bangunan yang sangat indah, luar biasa, luvv</p>
-                            <a href="detilWisataRekreasi.html">Detail</a>
+                            <a href="detilWisataRekreasi.html" class="btn btn-primary"> <i class="fas fa-info-circle"></i> Detail</a>
                         </div>
                     </div>
                 </div>
